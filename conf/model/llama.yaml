@@ -1,0 +1,11 @@
+name: meta-llama/Llama-2-7b-hf
+type: CausalLM
+epochs: 2
+per_device_batch_size: 2
+real_batch_size: 32
+bf16: True
+eval_epochs: 1
+early_stopping_patience: 9999
+max_length: 1024
+logging_steps: 1
+learning_rate: 5e-4
