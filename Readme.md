@@ -43,9 +43,9 @@ We sincerely thank the official code implementation of  [LoRA-GA](https://github
 @inproceedings{DBLP:conf/icml/KondratyukYGLHS24,
   author       = {Tao Li and Zhengbao He and Yujun Li and Yasheng Wang and Lifeng Shang and Xiaolin Huang},
   title        = {Flat-LoRA: Low-Rank Adaptation over a Flat Loss Landscape},
-  booktitle={International Conference on Machine Learning},
+  booktitle    = {International Conference on Machine Learning},
   year         = {2025},
-  organization={PMLR}
+  organization = {PMLR}
 }
 ```
 
