@@ -8,8 +8,9 @@ Official implementation of our ICML 2025 paper "[Flat-LoRA: Low-Rank Adaptation 
 
 We introduce Flat-LoRA, which aims to identify a low-rank adaptation situated in a flat region of the full parameter space. Instead of adopting the well-established sharpness-aware minimization approach, which incurs significant computation and memory overheads, we employ a Bayesian expectation loss objective to preserve training efficiency. Further, we design a refined random perturbation generation strategy for improved performance and carefully manage memory overhead using random seeds. Experiments across diverse tasks—including mathematical reasoning, coding abilities, dialogue generation, instruction following, and text-to-image generation—demonstrate that Flat-LoRA improves both in-domain and out-of-domain generalization.
 
-
-![catostrophic overfitting in Fast AT](flat-lora.png)
+<div align="center">
+<img src="flat-lora.png" width="80%" alt=""/>
+<div align="left">
 
 ## Quick Start
 
